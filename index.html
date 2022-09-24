@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="box-sizing: border-box;">
+    <div class="flex w-full ">
+        <div class="w-1/6 p-4 hidden lg:block md:block" style="font-family: 'Inter', sans-serif;">
+            <div class="flex flex-col gap-4">
+                <p class="text-red-600 font-bold text-lg">Questions?</p>
+                <p>Contact us by</p>
+                <div>
+                    <p class="font-bold">Skype:</p>
+                    <p>sales@mekashron.com</p>
+                    
+                    </div>
+                <p>or</p>
+                <div>
+                    <p class="text-green-700 font-bold">WhatsApp</p>
+                    <p>+9878645364</p>
+                     </div>
+            </div>
+        </div>
+        <div style="font-family: 'Poppins', sans-serif; " class="w-full p-4 md:w-2/3 lg:w-2/3">
+            <div class="h-28 hidden lg:block md:block rounded-md">
+                <div class="flex justify-between">
+                    <div class="flex gap-2">
+                        <div class="mt-4"><img src="images/Logo.png" alt=""></div>
+                    <div class="text-xs">
+                        <p class="mt-4">Welcome <strong>Roma</strong> - <a class="hover:underline" href="#">Logout</a></p>
+                    <p>Your balance: <strong>p 0,00</strong></p></div>
+                    </div>
+                    <div> 
+                        <div>
+                            <img src="images/social-top.png" alt="">
+                        </div>
+                        <div class="mr-4 flex">
+                            <div class="mt-auto mb-auto">
+                                <img  src="images/flag.png" alt="">
+                            </div>
+                            <select class="w-fit" name="" id="">
+                            <option value="">English</option>
+                            <option value="">German</option>
+                            <option value="">Japanese</option>
+                            <option value="">Chinese</option>
+                        </select></div>
+                </div>
+                </div>
+                <div class="flex justify-between rounded" style="background-color: red;">
+                    <div class="flex gap-5 ml-2 text-sm text-center mt-1 text-white">
+                        <a class="underline" href="#">HOME</a>|<a class="hover:underline" href="#">PLAY ALL LOTTERY</a>|<a class="hover:underline" href="#">LOTTERY GROUPS</a>|<a class="hover:underline" href="#">PROMOTIONS</a>
+                    </div>
+                    <div>
+                        <button class="rounded pr-4 pl-4 h-full pt-1 text-white text-sm" style="background-color: #0061A3;">MY ACCOUNT</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:hidden md:hidden">
+                <div class="hidden mobile-menu relative top-0 left-0">
+				<ul class="">
+					<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-red-500 font-semibold">HOME</a></li>
+					<li><a href="#" class="block text-sm px-2 py-4 hover:bg-red-500 transition duration-300">PLAY ALL LOTTERY</a></li>
+					<li><a href="#" class="block text-sm px-2 py-4 hover:bg-red-500 transition duration-300">LOTTERY GROUPS</a></li>
+					<li><a href="#" class="block text-sm px-2 py-4 hover:bg-red-500 transition duration-300">PROMOTIONS</a></li>
+                    <li><hr></li>
+                    <li>
+                        <div class="flex flex-col gap-4">
+                <p class=" font-bold text-md mt-4 text-red-700" >Questions?</p>
+                <p>Contact us by</p>
+                <div>
+                    <p class="font-bold">Skype:</p>
+                    <p>sales@mekashron.com</p>
+                    
+                    </div>
+                <p>or</p>
+                <div>
+                    <p class="font-black" style="color:rgb(0, 128, 58);">WhatsApp</p>
+                    <p>+9878645364</p>
+                     </div>
+            </div>
+                    </li>
+				</ul>
+			</div>
+                <div class="flex justify-around">
+                    <div class="md:hidden flex items-center">
+						<button class="outline-none mobile-menu-button">
+						<svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+							x-show="!showMenu"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+					</div>
+                    <img class="mt-4 w-2/3" src="images/Logo.png" alt="">
+                    <div class="mt-4"><img src="images/avatar.png" alt=""></div>
+                    
+                </div>
+                <div class="flex justify-between">
+                    <p class="text-md">Welcome <strong>Roma</strong></p>
+                    <p class="text-md">Your Balance: <strong>P 0,00</strong></p>
+                </div>
+            </div>
+            <div class="mt-6">
+                <div>
+                    <img src="images/banner.png" alt="">
+                </div>
+                <div class="mt-4 flex lg:flex-row md:flex-row flex-col gap-2">
+                    <div class="flex  border rounded p-1">
+                        <div class="mt-2">
+                            <img src="images/Group 1.png" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex justify-between">
+                                <p class="sm:text-sm"><strong>YOU PICK</strong></p>
+                                <div><a class="underline text-sm" href="#" style="color:blue;">PLAY NOW >></a></div>
+                            </div>
+                            <div class="text-gray-700 text-xs">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum eum
+                            </div>
+                        </div>
+                    </div><div class="flex border rounded p-1">
+                        <div class="mt-2">
+                            <img src="images/icon.png" alt="">
+                        </div>
+                        <div class="flex flex-col ">
+                            <div class="flex justify-between">
+                                <p class="sm:text-sm"><strong>WE BUY</strong></p>
+                                <div><a class="underline text-sm" href="#" style="color:blue">WE BUY >></a></div>
+                            </div>
+                            <div class="text-gray-700 text-xs">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum eum
+                            </div>
+                        </div>
+                    </div><div class="flex border rounded p-1">
+                        <div class="mt-2">
+                            <img src="images/Group 2.png" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex justify-between">
+                                <p class="sm:text-sm"><strong>YOU WIN!!!</strong></p>
+                                <div><a class="underline text-sm" href="#" style="color:blue; font-size:13px">YOU WIN!!! >></a></div>
+                            </div>
+                            <div class="text-gray-700 text-xs">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum eum,
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 ">
+                <p class="mb-4 text-md lg:text-xl md:text-xl font-bold">BIGGEST UPCOMING LOTTERY DRAWS</p>
+                <div class="flex flex-col md:flex-row lg:flex-row gap-2 w-full">
+                    <div class="w-full md:w-1/2 lg:w-1/3 border mb-8 rounded-md pt-2">
+                        <div class="flex gap-4 justify-center">
+                            <div class="mb-1">
+                                <img style="width:100px" src="images/mega-millions-logo.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-1 mt-3">
+                                    <img class="m-auto" style="height: 10px;" src="images/flag.png" alt="">
+                                    <p class="text-xs font-bold">MEGA MILLIONS</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-center" style="font-size: 19px; color:#13902A">$94 000 000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex p-2 pl-1 rounded-b-md" style="background-color: #0061A3;">
+                            <button class="mr-10 ml-1 pl-6 pr-6 rounded-md" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                            <div class="flex gap-1">
+                                <div class="mt-auto mb-auto"><img class="w-4" src="images/alarm.png" alt=""></div>
+                                <p style="font-size: 15px; color:white">1:22:01</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 border mb-8 rounded-md pt-2">
+                        <div class="flex gap-4 justify-center">
+                            <div class="mb-1">
+                                <img style="width:100px" src="images/mega-millions-logo2.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-1 mt-3">
+                                    <img style="height: 10px; margin: auto;" src="images/flag.png" alt="">
+                                    <p class="text-xs font-bold">MEGA MILLIONS</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-center" style="font-size: 19px; color:#13902A">$94 000 000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex p-2 pl-1 rounded-b-md" style="background-color: #0061A3;">
+                            <button class="mr-10 ml-1 pl-6 pr-6 rounded-md" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                            <div class="flex gap-1">
+                                <div class="mt-auto mb-auto"><img class="w-4" src="images/alarm.png" alt=""></div>
+                                <p style="font-size: 15px; color:white">1:22:01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 border mb-8 rounded-md pt-2">
+                        <div class="flex gap-4 justify-center">
+                            <div class="mb-1">
+                                <img style="width:100px" src="images/mega-millions-logo3.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-1 mt-3">
+                                    <img style="height: 10px; margin: auto;" src="images/flag.png" alt="">
+                                    <p class="text-xs font-bold">MEGA MILLIONS</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-center" style="font-size: 19px; color:#13902A">$94 000 000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex p-2 pl-1 rounded-b-md" style="background-color: #0061A3;">
+                            <button class="mr-10 ml-1 pl-6 pr-6 rounded-md" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                            <div class="flex gap-1">
+                                <div class="mt-auto mb-auto"><img class="w-4" src="images/alarm.png" alt=""></div>
+                                <p class="text-sm text-white" >1:22:01</p>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="mb-6 mt-2 w-full">
+                    <div class="w-full h-10 p-1 rounded-md" style="background-color: red; text-align: center;"><p class="text-white mt-1">PLAY UPCOMING LOTTERIES ONLINE</p></div>
+                    <div class="flex flex-wrap gap-2 md:gap-4 lg:gap-4 mt-4 ml-auto justify-center">
+                        <div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div>
+                        <div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <p class="m-auto" style="font-size: 12px; color:#0061A3">1:22:01</p>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div><div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div>
+                       <div class="border flex flex-col w-40 md:w-1/4 lg:w-1/6 rounded-md">
+                        <div class="w-full mt-2 relative">
+                            <img class="m-auto" style="width: 80px;"  src="images/mega-millions-logo circle.png" alt="">
+                            <img style="width: 13px;" class="absolute mr-2 right-0 top-0" src="images/star.png" alt="">
+                        </div>
+                        <div class=" flex flex-col w-full">
+                            <div class="flex gap-1 mt-3 m-auto">
+                                    <img style="height: 10px;" class="mt-auto mb-auto" src="images/flag.png" alt="">
+                                    <p style="font-size: 11px; font-weight:bold">MEGA MILLIONS</p>
+                            </div>
+                            <p class="m-auto text-sm lg:text-lg" style="font-weight: bold;">$122 000 000</p>
+                            <div class="flex gap-1 justify-center">
+                                <div class="mt-auto mb-auto"><img class="w-3" src="images/alarm-blue.png" alt=""></div>
+                                <p class="text-blue-600 text-xs">1:22:01</p>
+                            </div>
+                            <button class="w-3/4 mt-2 p-1 mb-2 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="w-full mt-4 relative mb-20">
+                        <a class="underline absolute right-0 mr-10" style="color: #0061A3; font-weight: bold; font-size: 14px;" href="#">More Details >></a>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row lg:flex-row w-full gap-4">
+                    <div class="w-full md:w-2/3 lg:w-2/3">
+                        <div class="w-full h-10 p-1 rounded-md" style="background-color: red; text-align: center;"><p class="text-white mt-1">BIGGEST LOTTERY WINNER</p></div>
+                        <div class="mt-4 border rounded-md">
+                            <p style="font-size: 19px; font-weight: bold; text-align: center;">WON <strong style="color:#0061A3; font-size: 25px;">$100 000 000</strong></p>
+                            <div class="flex flex-col lg:flex-row gap-3">
+                                    <div class="w-full lg:w-2/4">
+                                        <img src="images/winners.png" alt="">
+                                        <div class="flex mt-8 mb-8 ml-20 lg:ml-0">
+                                            <p style="font-size: 12px; font-weight: bold;">UK LOTTO RESULTS:</p>
+                                            <div>
+                                                <div class="flex gap-2 ml-2" style="color: white;">
+                                                    <p class="rounded-full" style="width: 15px;height: 15px;font-size: 11px ;background-color: red; text-align: center;">07</p>
+                                                    <p class="rounded-full" style="width: 15px;height: 15px;font-size: 11px ;background-color: red; text-align: center;">07</p><p class="rounded-full" style="width: 15px;height: 15px;font-size: 11px ;background-color: red; text-align: center;">07</p><p class="rounded-full" style="width: 15px;height: 15px;font-size: 11px ;background-color: red; text-align: center;">07</p><p class="rounded-full" style="width: 15px;height: 15px;font-size: 11px ;background-color: red; text-align: center;">07</p>
+                                                </div>
+                                                <p style="font-size: 13px; text-align: center;">Date: 20.11.2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-full lg:w-2/6 text-center">
+                                        <p style="font-size: 14px;font-weight:bold">Shaun Vincent a Lottery Winner</p>
+                                        <p class="mb-6 mt-4" style="font-size: 13px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis eum culpa explicabo unde iure vitae, harum veritatis modi. Nisi, dolorum.</p>
+                                        <a class="underline " style="text-align: center; color: #0061A3; font-size: 11px; font-weight: bold;" href="#">Read the full story</a>
+                                        <button class="w-3/4 lg:w-full pt-2 p-1 pb-2 mt-6 mb-3 rounded-md m-auto" style=" font-size:12px; font-weight: bold; background-color: rgb(240, 240, 33)">Play Now</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/3">
+                        <div class="w-full h-10 p-1 rounded-md" style="background-color: red; text-align: center;"><p class="text-white mt-1">OUR LATEST WINNERS</p></div>
+                        <div class="border mt-4 rounded-md">
+                            <p style="font-size: 14px; text-align: center;">Total prizes paid out</p>
+                            <p style="font-size: 18px; font-weight: bold; color: #13902A;text-align: center;">US$ 107 233 788</p>
+                            <p style="text-align: center;"><strong style="font-size: 18px; font-weight: bold;">6 766 554</strong> winning tickets</p>
+                        </div>
+                        <div>
+                            <div class="border rounded-md flex gap-2 mt-6">
+                                <img class="mt-auto mb-auto ml-3" style="width: 53px; height: 50px;" src="images/winner 1.png" alt="">
+                                <div>
+                                    <p style="font-size: 12px;">20.11.2021</p>
+                                    <div class="flex gap-2">
+                                        <img src="images/Country.png" alt="">
+                                        <p style="font-size: 12px; font-weight: bold;">J.J won P175</p>
+                                    </div>
+                                    <p style="font-size: 12px;color: gray;">in 7 N3 49 draw #54263</p>
+                                </div>
+                            </div>
+                            <div class="border rounded-md flex gap-2 mt-2">
+                                <img class="mt-auto mb-auto ml-3" style="width: 53px; height: 50px;" src="images/winner 1.png" alt="">
+                                <div>
+                                    <p style="font-size: 12px;">20.11.2021</p>
+                                    <div class="flex gap-2">
+                                        <img src="images/Country.png" alt="">
+                                        <p style="font-size: 12px; font-weight: bold;">J.J won P175</p>
+                                    </div>
+                                    <p style="font-size: 12px;color: gray;">in 7 N3 49 draw #54263</p>
+                                </div>
+                            </div>
+                            <div class="border rounded-md flex gap-2 mt-2 mb">
+                                <img class="mt-auto mb-auto ml-3" style="width: 53px; height: 50px;" src="images/winner 1.png" alt="">
+                                <div>
+                                    <p style="font-size: 12px;">20.11.2021</p>
+                                    <div class="flex gap-2">
+                                        <img src="images/Country.png" alt="">
+                                        <p style="font-size: 12px; font-weight: bold;">J.J won P175</p>
+                                    </div>
+                                    <p style="font-size: 12px;color: gray;">in 7 N3 49 draw #54263</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 ">
+                    <p class="mb-4 text-md lg:text-xl md:text-xl font-bold">FREQUENTLY ASKED QUESTIONS (F.A.Q)</p>
+                    <div class="w-2/3">
+                        <div class="w-full  px-4 py-2">
+              <details class="mb-4 w-full">
+                <summary class="font-semibold   rounded-md py-2 px-4" style="color: #0061A3;">
+                  Can I play the lottery online?
+                </summary>
+
+                <span>
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+              <hr>
+              <details class="mb-4">
+                <summary class="font-semibold rounded-md py-2 px-4" style="color: #0061A3;">
+                  How will i get my wins?
+                </summary>
+
+                <span>
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+              <hr>
+              <details class="mb-4">
+                <summary class="font-semibold rounded-md py-2 px-4" style="color: #0061A3;">
+                  Is it safe to play lottery online?
+                </summary>
+
+                <span>
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+            </div>
+                    </div>
+                </div>
+                <div class="mt-10 mb-10 pb-10 relative">
+                    <img src="images/stars-footer.png" alt="">
+                    <div class="hidden lg:block absolute w-full mb-4" style="top: 80px">
+                        <div class="flex justify-between mr-20 ml-16">
+                            <div class="flex gap-3 ">
+                                <img style="width:30px; height: 30px;" src="images/whatsapp.png" alt="">
+                                <div>
+                                    <p class="z-10" style="font-size: 11px; font-weight:bold">Live chat With WhatsApp</p>
+                                    <p style="font-size: 10px; color:gray">Customer Service</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-3 mb-3">
+                                <img style="width: 25px; height:25px" src="images/facebook-messenger.png" alt=""><img style="width: 25px; height:25px" src="images/twitter.png" alt=""><img style="width: 25px; height:25px" src="images/facebook.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden lg:flex justify-around mb-4 absolute pb-10" style="top: 120px">
+                            
+                            <div>
+                                <strong style="font-size: 11px;">USEFUL LINKS</strong>
+                                <div style="font-size: 11px">
+                                    Lottery Results and winners <br>
+                                    About us <br>
+                                    Contact us <br>
+                                    Terms & conditions <br>
+                                    security <br>
+                                    provacy policy <br>
+                                    accepatable use policy <br>
+                                    Website use policy <br>
+                                    <strong>Affliate program</strong>
+                                </div>
+                            </div>
+                        <div class="w-1/4">
+                                <strong style="font-size: 11px">Smart winners</strong>
+                                <p style="font-size:10px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi deleniti similique doloremque nihil sequi ab quia ut quos, nesciunt facere maxime repellat, odit aspernatur corrupti tempora sed mollitia sunt eius est. Totam blanditiis hic ab obcaecati? Adipisci, sit dolorum. Adipisci voluptates doloremque ad omnis voluptas placeat odit, ipsa debitis minima!</p>
+                            </div>
+                        <div>
+                            
+                            <div >
+                                <strong class="mt-2" style="font-size: 13px">Payment methods</strong>
+                                <img style="width:110px" src="images/icon payment.png" alt="">
+                            </div>
+                            <div>
+                                <strong class="mt-2" style="font-size: 13px">Security And Trust</strong>
+                                <img style="width:110px" src="images/security.png" alt="">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="lg:hidden pb-6 absolute top-1">
+                        <div class="flex gap-3 ">
+                                <img style="width:30px; height: 30px;" src="images/whatsapp.png" alt="">
+                                <div>
+                                    <p class="z-10" style="font-size: 11px; font-weight:bold">Live chat With WhatsApp</p>
+                                    <p style="font-size: 10px; color:gray">Customer Service</p>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <strong>USEFUL LINKS</strong>
+                                <div class="flex mt-4 gap-2">
+                                    <p class="text-sm ">
+                                        Home <br>
+                                        Lottery Results & Winners <br>
+                                        Lottery promotions <br>
+                                        About us <br>
+                                        Contact us 
+
+                                    </p>
+                                    <p class="text-sm ">
+                                        Terms & conditions <br>
+                                    security <br>
+                                    provacy policy <br>
+                                    accepatable use policy <br>
+                                    Website use policy <br>
+                                    <strong>Affliate program</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <div class="w-full">
+                                <strong class="text-md">Smart winners</strong>
+                                <p class="text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi deleniti similique doloremque nihil sequi ab quia ut quos, nesciunt facere maxime repellat, odit aspernatur corrupti tempora sed mollitia sunt eius est. Totam blanditiis hic ab obcaecati? Adipisci, sit dolorum. Adipisci voluptates doloremque ad omnis voluptas placeat odit, ipsa debitis minima!</p>
+                            </div>
+                            </div>
+                            <div class="flex justify-between gap-3 mt-4">
+                                <div class="w-1/2">
+                                <strong class="mt-2" style="font-size: 13px">Payment methods</strong>
+                                <img class="w-3/4" src="images/icon payment.png" alt="">
+                            </div>
+                            <div class="w-1/2">
+                                <strong class="mt-2" style="font-size: 13px">Security And Trust</strong>
+                                <img class="w-3/4" src="images/security.png" alt="">
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+				const btn = document.querySelector("button.mobile-menu-button");
+				const menu = document.querySelector(".mobile-menu");
+
+				btn.addEventListener("click", () => {
+					menu.classList.toggle("hidden");
+				});
+			</script>
+</html>
